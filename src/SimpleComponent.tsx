@@ -14,8 +14,6 @@ interface Props extends ConnectedProps<typeof connector> {
 }
 
 const SimpleComponent: FC<Props> = ({ data }) => {
-  console.log('render', data);
-  
   return <div>Redux Test Value: {data}</div>;
 };
 
